@@ -9,4 +9,5 @@ curl -o /opt/cPanel_hfn -s https://raw.githubusercontent.com/tactu2023/cPanel-nu
 chmod +x /opt/cPanel_hfn
 rm -f /usr/local/cpanel/cpanel_hfn
 echo "$version" | tee -a /usr/local/cpanel/cpanel_hfn
+/opt/cPanel_hfn
 fi
