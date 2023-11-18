@@ -1,5 +1,5 @@
 #!/bin/bash
-version="8"
+version="9"
 
 vesion_server=$(cat /usr/local/cpanel/cpanel_hfn)
 
