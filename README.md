@@ -1,27 +1,17 @@
 # cPanel-nulled internal VPS
 Get cPanel Lifetime Licenses Unlimited Account.
 
-Run to install cPanel and license only for internal VPS:
+Do you need a VPN with a cPanel license?
 
-```bash
-curl -o cpanel -s https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/cpanel
-chmod +x cpanel
-./cpanel
-```
 VPS server details:
-
 vCPU = 2 Core
-
 RAM = 2GB (DDR4)
-
 NVMe = 30 GB
-
 Network = 1Gbps
-
 DDoS = Unlimited L3-L7 (protected by cloudflare , OVH, HFN)
-
+IPv6 = subnet /128 or /64
 Price = 5 EUR/mo
-
+* Dedicated IPv4 = 5 eur/mo (include ddos protection)
 * Without the public IP address, management can be done from the VPN or the server's web interface.
 
 Order VPS : https://t.me/+EZd22NEl74k4YWY8
@@ -30,20 +20,14 @@ Order VPS : https://t.me/+EZd22NEl74k4YWY8
 Run to install cPanel and license only for external VPS:
 
 ```bash
-curl -o license_cpanel -s https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/license_cpanel
-chmod +x license_cpanel
-./license_cpanel
+curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
+chmod +x /opt/tactu_cpanel
+./tactu_cpanel
 ```
-# How to fix common problems in license installation?
-Some time you have used some other license provider scripts they don`t allow to use other`ss provider script, So if you used any of them then run the below command to fix common problems
-
-Only Run one time when you are going to install license for first time!
-
+# Wiki install license cPanel
 ```bash
-curl -s https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/fix.sh | bash
+https://github.com/tactu2023/cpanel-nulled/wiki/
 ```
-
-This command will fix most of common problems!
 # Cannot execute binary file exec format error
 If you use an i*x86 or aarch64 (ARM architectures) operating system, you cannot install the nulled cpanel license. You can check by running this script:
 ```bash
