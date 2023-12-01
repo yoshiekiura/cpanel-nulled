@@ -5,12 +5,19 @@ Do you need a VPN with a cPanel license?
 
 VPS server details:
 vCPU = 2 Core
+
 RAM = 2GB (DDR4)
+
 NVMe = 30 GB
+
 Network = 1Gbps
+
 DDoS = Unlimited L3-L7 (protected by cloudflare , OVH, HFN)
+
 IPv6 = subnet /128 or /64
+
 Price = 5 EUR/mo
+
 * Dedicated IPv4 = 5 eur/mo (include ddos protection)
 * Without the public IP address, management can be done from the VPN or the server's web interface.
 
@@ -22,7 +29,7 @@ Run to install cPanel and license only for external VPS:
 ```bash
 curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
 chmod +x /opt/tactu_cpanel
-./tactu_cpanel
+/opt/tactu_cpanel
 ```
 # Wiki install license cPanel
 ```bash
