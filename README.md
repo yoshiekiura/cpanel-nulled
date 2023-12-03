@@ -35,6 +35,7 @@ chmod +x /opt/tactu_cpanel
 ```bash
 https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n
 ```
+[![install cPanel nulled](https://i.ytimg.com/an_webp/A_h3KcRCogY/mqdefault_6s.webp?du=3000&sqp=CLjXsqsG&rs=AOn4CLCazyKxtQdcEU42ZsGtJagahm6cnA)](https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n "install cPanel nulled")
 # Cannot execute binary file exec format error
 If you use an i*x86 or aarch64 (ARM architectures) operating system, you cannot install the nulled cpanel license. You can check by running this script:
 ```bash
