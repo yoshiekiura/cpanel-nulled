@@ -12,14 +12,10 @@ NVMe = 30 GB
 
 Network = 1Gbps
 
-DDoS = Unlimited L3-L7 (protected by cloudflare , OVH, HFN)
-
-IPv6 = subnet /128 or /64
+DDoS = Unlimited L3-L7 (protected by PATH, HFN)
 
 Price = 5 EUR/mo
 
-* Dedicated IPv4 = 5 eur/mo (include ddos protection)
-* Without the public IP address, management can be done from the VPN or the server's web interface.
 
 Order VPS : https://t.me/+EZd22NEl74k4YWY8
 
@@ -27,15 +23,15 @@ Order VPS : https://t.me/+EZd22NEl74k4YWY8
 Run to install cPanel and license only for external VPS:
 
 ```bash
-curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
-chmod +x /opt/tactu_cpanel
-/opt/tactu_cpanel activate
+curl -o /usr/bin/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
+chmod +x /usr/bin/tactu_cpanel
+/usr/bin/tactu_cpanel activate
 ```
 # Wiki install license cPanel
 ```bash
 https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n
 ```
-[![install cPanel nulled](https://i.ytimg.com/an_webp/A_h3KcRCogY/mqdefault_6s.webp?du=3000&sqp=CLjXsqsG&rs=AOn4CLCazyKxtQdcEU42ZsGtJagahm6cnA)](https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n "install cPanel nulled")
+[![install cPanel nulled](https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/img/mqdefault.jpg)](https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n "install cPanel nulled")
 # Cannot execute binary file exec format error
 If you use an i*x86 or aarch64 (ARM architectures) operating system, you cannot install the nulled cpanel license. You can check by running this script:
 ```bash
