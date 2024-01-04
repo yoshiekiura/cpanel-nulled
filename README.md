@@ -37,6 +37,13 @@ If you use an i*x86 or aarch64 (ARM architectures) operating system, you cannot 
 ```bash
 curl -s https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/no_execute | bash
 ```
+# You don't donate, you don't benefit
+The cPanel license is offered 100% free of charge, but to support this project, VPS servers, dedicated servers, virtual networks and technical support, a minimum donation of 2 euros/month is required for each license.
+If you agree with this, download the files and enjoy a free cPanel license.
+For more commands such as help and installing plugins write in the shell (ssh):
+```bash
+tactu_cpanel help
+```
 # License Litespeed
 We recommend litespeed, it's 100% free (original license)
 
