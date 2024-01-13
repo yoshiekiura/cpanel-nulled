@@ -4,7 +4,7 @@ Red='\033[0;31m'          # Red
 Green='\033[0;32m'        # Green
 Yellow='\033[0;33m'      # Yellow
 Bleo='\033[1;36m'         # Bleo
-versiune="15"
+versiune="16"
 logo(){   ############################ logo
 clear
 echo "
@@ -130,4 +130,7 @@ subsol
 fi
 if [ "$1" = "versiune" ]; then
 echo $versiune
+fi
+if [ "$1" = "install" ]; then
+/opt/tactu_cpanel install $2
 fi
