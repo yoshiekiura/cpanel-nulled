@@ -1,6 +1,9 @@
 # cPanel-nulled internal VPS
 Get cPanel Lifetime Licenses Unlimited Account.
 
+Works and tested only on almalinux 8!
+Soon on ubuntu 20.04 and almalinux 9 ...
+
 Do you need a VPN with a cPanel license?
 
 VPS server details:
