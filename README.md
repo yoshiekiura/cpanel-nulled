@@ -23,6 +23,10 @@ Price = 5 EUR/mo
 Order VPS : https://t.me/+EZd22NEl74k4YWY8
 
 # cPanel-nulled external VPS
+
+Works and tested only on almalinux 8!
+Soon on ubuntu 20.04 and almalinux 9 ...
+
 Run to install cPanel and license only for external VPS:
 
 ```bash
