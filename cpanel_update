@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -f "/usr/local/cpanel/cpanel_hfn" ]; then
+oldversion=$( cat /usr/local/cpanel/cpanel_hfn )
+newversion=$( curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/version )
+
+if [ "$newversion" -gt "$oldversion" ]; then
+echo Your license need update [ version:$newversion ]
+curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/update_cpanel -o /opt/cpanel_update
+chmod +x /opt/cpanel_update
+/usr/bin/sh /opt/cpanel_update
+rm -rf /opt/cpanel_update
+fi
+
+currentVersion=$(cat /usr/local/cpanel/cpanel_hfn)
+if [ "$newversion" = "$currentVersion" ]; then
+echo "You are now using the latest version [ $currentVersion ]"
+fi
