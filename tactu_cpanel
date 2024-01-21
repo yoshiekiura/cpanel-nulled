@@ -4,7 +4,7 @@ Red='\033[0;31m'          # Red
 Green='\033[0;32m'        # Green
 Yellow='\033[0;33m'      # Yellow
 Bleo='\033[1;36m'         # Bleo
-versiune="16"
+versiune="17"
 logo(){   ############################ logo
 clear
 echo "
@@ -83,6 +83,9 @@ fi
 }
 
 download(){
+if [ -e "/opt/tactu_cpanel" ]; then
+rm -f /opt/tactu_cpanel
+fi
 curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel.x
 chmod +x /opt/tactu_cpanel
 }
@@ -112,8 +115,6 @@ if [ ! -f "/usr/local/cpanel/cpanel.lisc" ]; then
 echo 
 /opt/tactu_cpanel instalare
 sleep 2
-echo " If the script determines the server is eligible, enter 'y' at the prompt to be issued the 'automatic' hostname on the server."
-/scripts/ensure_hostname_resolves
 clear
 /opt/tactu_cpanel activate
 license
