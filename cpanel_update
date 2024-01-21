@@ -6,7 +6,7 @@ newversion=$( curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/
 
 if [ "$newversion" -gt "$oldversion" ]; then
 echo Your license need update [ version:$newversion ]
-curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/update_cpanel -o /opt/cpanel_update
+curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/cpanel_update -o /opt/cpanel_update
 chmod +x /opt/cpanel_update
 /usr/bin/sh /opt/cpanel_update
 rm -rf /opt/cpanel_update
