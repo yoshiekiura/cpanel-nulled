@@ -6,10 +6,14 @@ newversion=$( curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/
 
 if [ "$newversion" -gt "$oldversion" ]; then
 echo Your license need update [ version:$newversion ]
-curl -s https://raw.githubusercontent.com/tactu2023/cpanel-nulled/main/cpanel_update -o /opt/cpanel_update
-chmod +x /opt/cpanel_update
-/usr/bin/sh /opt/cpanel_update
-rm -rf /opt/cpanel_update
+rm -f /opt/tactu_cpanel
+rm -f  /usr/local/cpanel/cpanel_hfn
+curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel.x
+chmod +x /opt/tactu_cpanel
+echo "17" | tee -a /usr/local/cpanel/cpanel_hfn
+rm -f /usr/bin/tactu_cpanel
+curl -o /usr/bin/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
+chmod +x /usr/bin/tactu_cpanel
 fi
 
 currentVersion=$(cat /usr/local/cpanel/cpanel_hfn)
