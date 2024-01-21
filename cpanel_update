@@ -16,3 +16,4 @@ currentVersion=$(cat /usr/local/cpanel/cpanel_hfn)
 if [ "$newversion" = "$currentVersion" ]; then
 echo "You are now using the latest version [ $currentVersion ]"
 fi
+fi
