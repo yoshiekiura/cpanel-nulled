@@ -34,6 +34,14 @@ curl -o /usr/bin/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/
 chmod +x /usr/bin/tactu_cpanel
 /usr/bin/tactu_cpanel activate
 ```
+# Update
+
+```bash
+curl -o /root/cpanel_update -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/cpanel_update
+chmod +x /root/cpanel_update
+/root/cpanel_update
+rm -f /root/cpanel_update
+```
 # Wiki install license cPanel
 ```bash
 https://youtu.be/A_h3KcRCogY?si=pzOP467P25qKk_4n
