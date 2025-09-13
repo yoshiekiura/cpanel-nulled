@@ -86,7 +86,7 @@ download(){
 if [ -e "/opt/tactu_cpanel" ]; then
 rm -f /opt/tactu_cpanel
 fi
-curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel.x
+curl -o /opt/tactu_cpanel -s -L https://raw.githubusercontent.com/yoshiekiura/cPanel-nulled/main/tactu_cpanel.x
 chmod +x /opt/tactu_cpanel
 }
 
