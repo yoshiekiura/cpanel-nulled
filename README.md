@@ -30,14 +30,14 @@ Soon on ubuntu 20.04 and almalinux 9 ...
 Run to install cPanel and license only for external VPS:
 
 ```bash
-curl -o /usr/bin/tactu_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/tactu_cpanel
+curl -o /usr/bin/tactu_cpanel -s -L https://raw.githubusercontent.com/yoshiekiura/cPanel-nulled/main/tactu_cpanel
 chmod +x /usr/bin/tactu_cpanel
 /usr/bin/tactu_cpanel activate
 ```
 # Update
 
 ```bash
-curl -o /root/cpanel_update -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/cpanel_update
+curl -o /root/cpanel_update -s -L https://raw.githubusercontent.com/yoshiekiura/cPanel-nulled/main/cpanel_update
 chmod +x /root/cpanel_update
 /root/cpanel_update
 rm -f /root/cpanel_update
@@ -64,6 +64,6 @@ We recommend litespeed, it's 100% free (original license)
 
 For install litespeed: 
 
-https://github.com/tactu2023/trial_license_litespeed
+https://github.com/lalash/trial_license_litespeed
 
 * Still in beta, use at your own risk! It is provided without any warranty!
