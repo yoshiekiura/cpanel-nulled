@@ -57,7 +57,7 @@ fi
 
 echo "Start install cPanel nulled
 cd /root
-curl -o license_cpanel -s -L https://raw.githubusercontent.com/tactu2023/cPanel-nulled/main/license_cpanel
+curl -o license_cpanel -s -L https://raw.githubusercontent.com/harisnaeemofficial/cPanel-nulled/main/license_cpanel
 chmod +x license_cpanel
 ./license_cpanel
 "
