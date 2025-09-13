@@ -2,7 +2,7 @@
 
 if [ -f "/usr/local/cpanel/cpanel_hfn" ]; then
 oldversion=$( cat /usr/local/cpanel/cpanel_hfn )
-newversion=$( curl -s https://raw.githubusercontent.com/harisnaeemofficial/cpanel-nulled/main/version )
+newversion=$( curl -s https://raw.githubusercontent.com/yoshiekiura/cpanel-nulled/main/version )
 
 if [ "$newversion" -gt "$oldversion" ]; then
 echo Your license need update [ version:$newversion ]
